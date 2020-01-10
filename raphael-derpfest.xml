@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="nullxception/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="ten" />
-  <project name="YaroST12/RAPHAEL_Kernel" path="kernel/xiaomi/raphael" remote="github" revision="Q-raphael" />
+  <project name="Chaldeastudio/msm-4.14-raphael" path="kernel/xiaomi/raphael" remote="github" revision="ten" />
   <project name="UtsavisGreat/vendor_xiaomi_raphael" path="vendor/xiaomi" remote="github" revision="queso" />
 </manifest>
