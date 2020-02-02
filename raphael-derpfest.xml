@@ -2,4 +2,5 @@
 <manifest>
   <project name="Chaldeastudio/chaldea_kernel_xiaomi_sm8150" path="kernel/xiaomi/raphael" remote="github" revision="ten" />
   <project name="nullxception/vendor_xiaomi_raphael" path="vendor/xiaomi" remote="github" revision="ten" />
+  <project name="PixelExperience-Devices/vendor_Miuicamera" path="vendor/xiaomi" remote="github" revision="ten-anx-raphael" />
 </manifest>
