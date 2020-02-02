@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6170260" />
+  <remove-project name="Ancient-Project/clang-11" />
+</manifest>

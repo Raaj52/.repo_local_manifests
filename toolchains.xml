@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6032204" />
-  <remove-project name="Ancient-Project/clang-11" />
-  
   <project name="Haseo97/Clang-11.0.0" path="prebuilts/clang/host/linux-x86/clang-artoria11" remote="github" revision="11.0.0" clone-depth="1" />
 </manifest>
