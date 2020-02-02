@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="nullxception/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="ten" />
   <project name="Chaldeastudio/chaldea_kernel_xiaomi_sm8150" path="kernel/xiaomi/raphael" remote="github" revision="ten" />
   <project name="nullxception/vendor_xiaomi_raphael" path="vendor/xiaomi" remote="github" revision="ten" />
 </manifest>
