@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- nope -->
-  <remove-project name="device/ti/beagle-x15-kernel" />
-  <remove-project name="device/ti/beagle-x15" />
-  <remove-project name="platform/hardware/ti/am57x" />
-  <remove-project name="platform/hardware/qcom/msm8960" />
-  <remove-project name="platform/hardware/qcom/msm8994" />
-  <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
-  <remove-project name="platform/hardware/qcom/msm8x09" />
-  <remove-project name="platform/hardware/qcom/msm8x26" />
-  <remove-project name="platform/hardware/qcom/msm8x27" />
-  <remove-project name="platform/hardware/qcom/msm8x84" />
+	<!-- nope -->
+	<remove-project name="device/ti/beagle-x15-kernel" />
+	<remove-project name="device/ti/beagle-x15" />
+	<remove-project name="platform/hardware/ti/am57x" />
 
-	<!-- 
-      Not building for cars 
+	<!--
+      Not building for cars
       Some sh!t still needed so not all car packages is removed -->
 	<remove-project name="platform/packages/apps/Car/Cluster" />
 	<remove-project name="platform/packages/apps/Car/Dialer" />
