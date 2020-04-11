@@ -4,4 +4,5 @@
   <project name="nullxception/kernel_xiaomi_raphael" path="kernel/xiaomi/raphael" remote="github" revision="ten" />
   <project name="nullxception/vendor_xiaomi_raphael" path="vendor/xiaomi/raphael" remote="github" revision="ten" />
   <project name="nullxception/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="master" />
+  <project name="Haseo97/Avalon-Clang-11.0.1" path="prebuilts/clang/host/linux-x86/clang-avalon" remote="github" revision="11.0.1" depth="1" />
 </manifest>
