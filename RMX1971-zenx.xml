@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="pixel-devices-bitbucket"
+          fetch="https://bitbucket.org/PixelExperience-Devices"
+          revision="ten" />
+
+  <project name="ZenX-Devices/device_realme_RMX1971" path="device/realme/RMX1971" remote="github" revision="ten" />
+  <project name="ZenX-Devices/kernel_realme_RMX1971" path="kernel/realme/RMX1971" remote="github" revision="ten" />
+  <project name="vendor_realme_rmx1971" path="vendor/realme/RMX1971" remote="pixel-devices-bitbucket" revision="ten" />
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" depth="1" />
+</manifest>
