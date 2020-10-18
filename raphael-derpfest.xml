@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Raaj52/dt_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="los" />
-  <project name="Raaj52/android_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="ten" />
-  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" depth="1" />
-  <project name="Raaj52/vendor_ANXCamera" path="vendor/ANXCamera" remote="github" revision="ten" />
+
+  <remote name="private"
+          fetch="ssh://git@github.com/Raaj52" />
+
+  <project name="eleven_dt_raphael" path="device/xiaomi/raphael" remote="private" revision="11-derp-los" />
+  <project name="Raaj52/android_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="11" />
+  <!-- project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" depth="1" / -->
 </manifest>
