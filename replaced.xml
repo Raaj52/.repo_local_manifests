@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="hardware_qcom_wlan" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lineage" revision="lineage-18.0-caf" />
+
+  <remove-project name="vendor_qcom_opensource_data-ipa-cfg-mgr" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="lineage" revision="refs/heads/lineage-18.0" />
+  
+  <remove-project name="frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r5" />
+  
+  <remove-project name="hardware_qcom_data_ipacfg-mgr" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="lineage" revision="refs/heads/lineage-18.0" />
+  
+  <remove-project name="vendor_qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-17.1" />
+</manifest>
