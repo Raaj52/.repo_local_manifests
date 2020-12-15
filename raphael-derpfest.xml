@@ -4,7 +4,8 @@
   <remote name="private"
           fetch="ssh://git@github.com/Raaj52" />
 
-  <project name="eleven_dt_raphael" path="device/xiaomi/raphael" remote="private" revision="11-derp-los" />
-  <project name="Raaj52/android_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="11" />
-  <!-- project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" depth="1" / -->
+  <project name="device_xiaomi_raphael" path="device/xiaomi/raphael" remote="private" revision="11" />
+  <project name="yaap/vendor_xiaomi_raphael" path="vendor/xiaomi/raphael" remote="github" revision="eleven" />
+  <project name="yaap/kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" remote="github" revision="eleven" />
+  <!-- project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" depth="1" /-->
 </manifest>

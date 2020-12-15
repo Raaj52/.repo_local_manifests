@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="hardware_qcom-caf_sm8150_audio" />
+  <project name="ProjectStreak/platform_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" remote="github" revision="eleven"/>
+  
+  <remove-project name="hardware_qcom-caf_sm8150_display" />
+  <project name="ProjectStreak/platform_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="eleven" />
+
+  <remove-project name="hardware_qcom-caf_sm8150_media" />
+  <project name="ProjectStreak/platform_hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" remote="github" revision="eleven" />
+
+ </manifest>

@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- nope -->
-	<remove-project name="device/ti/beagle-x15-kernel" />
-	<remove-project name="device/ti/beagle-x15" />
-	<remove-project name="platform/hardware/ti/am57x" />
 
-	<!--
-      Not building for cars
-      Some sh!t still needed so not all car packages is removed -->
-	<remove-project name="platform/packages/apps/Car/Cluster" />
-	<remove-project name="platform/packages/apps/Car/Dialer" />
-	<remove-project name="platform/packages/apps/Car/Hvac" />
-	<remove-project name="platform/packages/apps/Car/LatinIME" />
-	<remove-project name="platform/packages/apps/Car/Launcher" />
-	<remove-project name="platform/packages/apps/Car/LinkViewer" />
-	<remove-project name="platform/packages/apps/Car/LocalMediaPlayer" />
-	<remove-project name="platform/packages/apps/Car/Media" />
-	<remove-project name="platform/packages/apps/Car/Messenger" />
-	<remove-project name="platform/packages/apps/Car/Radio" />
-	<remove-project name="platform/packages/apps/Car/Settings" />
-	<remove-project name="platform/packages/apps/Car/SystemUpdater" />
-	<remove-project name="platform/packages/apps/Car/tests" />
-	<remove-project name="platform/frameworks/opt/car/setupwizard" />
+  <!-- device repos to be removed -->
+  <remove-project name="device/google/bramble" />
+  <remove-project name="device/google/bramble-kernel" />
+  <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redfin-kernel" />
+  <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common"/>
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/opengl-transport"/>
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty"/>
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/sample" />
 </manifest>
